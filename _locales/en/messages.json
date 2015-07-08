@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Save to Inboard"
+  },
+  "extDesc": {
+    "message": "Save images or web screenshots to your Inboard library."
+  },
+  "extTitle": {
+    "message": "Save this page Inboard"
+  },
+  "saveImage": {
+    "message": "Save image to Inboard"
+  },
+  "savePage": {
+    "message": "Save page to Inboard"
+  }
+}

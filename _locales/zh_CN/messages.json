@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "保存至 Inboard"
+  },
+  "extDesc": {
+    "message": "保存图片或网页截图到你的 Inboard 图片库"
+  },
+  "extTitle": {
+    "message": "保存网页到 Inboard"
+  },
+  "saveImage": {
+    "message": "保存图片到 Inboard"
+  },
+  "savePage": {
+    "message": "保存网页到 Inboard"
+  }
+}

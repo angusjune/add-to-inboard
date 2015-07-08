@@ -1,0 +1,9 @@
+# Add to Inboard - A Chrome Extension
+
+**Add to Inboard** allows you to add images or the whole page to your [Inboard][inboard] Library.
+
+[Download from Chrome App Store][dl]
+
+
+[inboard]:http://inboardapp.com
+[dl]:https://chrome.google.com/webstore/detail/giojncjpmmdmpnpgbnkmkpbmcgabjcdc

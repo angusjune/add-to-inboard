@@ -11,25 +11,22 @@ function handleImageUrl(url) {
   });
 }
 
-chrome.runtime.onInstalled.addListener(function() {
+// Save image to Inboard
+chrome.contextMenus.create({
+  'title': imageCxtTtile,
+  'contexts':['image'],
+  onclick: function(info) {
+    handleImageUrl(info.srcUrl);
+  }
+});
 
-  // Save image to Inboard
-  chrome.contextMenus.create({
-    'title': imageCxtTtile,
-    'contexts':['image'],
-    onclick: function(info) {
-      handleImageUrl(info.srcUrl);
-    }
-  });
-
-  // Save page to Inboard
-  chrome.contextMenus.create({
-    'title': pageCxtTitle,
-    'contexts':['page'],
-    onclick: function(info, tab) {
-      handleImageUrl(tab.url);
-    }
-  });
+// Save page to Inboard
+chrome.contextMenus.create({
+  'title': pageCxtTitle,
+  'contexts':['page'],
+  onclick: function(info, tab) {
+    handleImageUrl(tab.url);
+  }
 });
 
 // Save page to Inboard
